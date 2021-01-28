@@ -1,0 +1,12 @@
+/.idea
+
+/cache/*
+!/cache/index.html
+
+/data/*
+!/data/index.html
+
+/vendor/*
+
+/composer.lock
+.DS_store

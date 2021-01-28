@@ -1,0 +1,23 @@
+{
+    "name": "be/sf-new",
+    "type": "project",
+    "description": "PHP BE 服务框架（Service Framework）",
+    "keywords": ["PHP", "Be", "Beyond Exception", "Service", "Framework", "管理框架"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BE团队",
+            "homepage": "http://www.phpbe.com/"
+        }
+    ],
+    "require": {
+        "be/sf": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Be\\Sf\\Cache\\": "cache/",
+            "Be\\Sf\\Data\\": "data/"
+        }
+    }
+}
+
